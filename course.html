@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0dec652169.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0dec652169.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>University website Desing by Mehede Hasan Rony</title>
+</head>
+<body>  
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-pages.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+          <h1>Our Courses</h1>
+    </section>
+
+  <!-- course -->
+ 
+  <section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus beatae commodi! Maiores necessitatibus ab deserunt, repudiandae consequuntur id mollitia, quos, quae corrupti in velit veniam fugit ipsam rerum alias.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus beatae commodi! Maiores necessitatibus ab deserunt, repudiandae consequuntur id mollitia, quos, quae corrupti in velit veniam fugit ipsam rerum alias.</p>
+        </div>
+        <div class="course-col">
+            <h3>post Grasution</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus beatae commodi! Maiores necessitatibus ab deserunt, repudiandae consequuntur id mollitia, quos, quae corrupti in velit veniam fugit ipsam rerum alias.</p>
+        </div>
+    </div>
+</section>
+
+<!------facilities------->
+    
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptate, ullam dignissimos.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Laregest Play Ground</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptate, ullam dignissimos.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Tasty and Health Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptate, ullam dignissimos.</p>
+        </div>
+    </div>
+</section>
+
+ 
+
+<!------ Footer ------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci animi error quibusdam qui ullam?  Quasi ea perspiciatis doloribus <br>possimus distinctio, commodi reiciendis! Vitae, sint libero.</p>
+    <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+       <i class="fa fa-youtube"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> Mehede Hasan Rony</p>
+
+</section>
+<!--Js for toggle Mamu--> 
+<script>
+var navlinks = document.getElementById("navlinks")
+function showmenu(){
+    navlinks.style.right = (0);
+}
+function hidemenu(){
+    navlinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
